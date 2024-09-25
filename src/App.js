@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import ComparativeTable from './ComparativeTable';
+import BackgroundImageComponent from './BackgroundImageComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1 style={{ textAlign: 'center' }}>Cuadro Comparativo de Empresarios</h1>
+      <ComparativeTable /> */}
+      <h1 className="title">Empresario Ideal</h1>
+      <BackgroundImageComponent />
     </div>
   );
 }
